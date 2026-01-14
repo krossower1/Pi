@@ -5,6 +5,13 @@
 #include <iomanip>
 #include <string>
 
+/**
+* @brief Calculates Pi using the Riemman sum method and is responsible for starting threads
+* @param argv[1] The amount of rectangles to divide
+* @param argv[2] The amount of threads to run
+*
+**/
+
 int main(int argc, char* argv[])
 {
     if (argc != 3)
